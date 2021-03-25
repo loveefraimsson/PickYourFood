@@ -21,7 +21,7 @@ function printCategories(data) {
     categoryArray.sort();
 
     for (i = 0; i < categoryArray.length; i++) {
-        categoryContainer.insertAdjacentHTML("beforeend", "<li>" + categoryArray[i] + "</li>");
+        categoryList.insertAdjacentHTML("beforeend", "<li>" + categoryArray[i] + "</li>");
     }
 
 }
